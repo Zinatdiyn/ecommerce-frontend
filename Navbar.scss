@@ -1,0 +1,23 @@
+* {
+  list-style: none;
+  text-decoration: none;
+}
+
+.navbar {
+  background-color: #eeeded;
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  display: flex;
+  gap: 20px; 
+  align-items: center; 
+}
+.navbar ul {
+  display: flex;
+  border: 1px solid black;
+  padding: 0px 30px;
+  font-size: 25px;
+  margin: 0px 20px;
+  position: absolute;
+  right: 50px;
+  gap: 30px;
+}

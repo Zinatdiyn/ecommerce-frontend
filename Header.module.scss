@@ -1,0 +1,54 @@
+header {
+  width: 100%;
+  background-color: #e9e9e9;
+
+  .topBar {
+    display: flex;
+    justify-content: space-between;
+    background: #f8f8f8;
+    padding: 10px 75px;
+    font-size: 15px;
+  }
+
+  .mainHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+	.mainH1{
+		font-size: 20px;
+		max-width: 150px; 
+  	word-wrap: break-word;
+	}
+
+	.searchInput {
+		width: 100%; // Har doim o‘zining joyiga moslashadi
+		max-width: 400px; // Maksimal kenglik
+	}
+
+  .catalogButton,
+  .accountButton,
+  .cartButton {
+    background: #ff4d00;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+		width: 200px;
+  }
+
+  .searchInput {
+    flex: 1;
+    padding: 10px;
+    margin: 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+		position: relative;
+  	top: 5px;
+  }
+}
